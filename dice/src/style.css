@@ -62,3 +62,9 @@ main {
 .roll-button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.2);
 }
+
+.selected {
+  background-color: #20a3f4;
+
+  color: #fff;
+}
