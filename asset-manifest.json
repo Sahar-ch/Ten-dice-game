@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ten-dice-game/static/css/main.435dff3e.css",
+    "main.js": "/Ten-dice-game/static/js/main.8238aae1.js",
+    "index.html": "/Ten-dice-game/index.html",
+    "main.435dff3e.css.map": "/Ten-dice-game/static/css/main.435dff3e.css.map",
+    "main.8238aae1.js.map": "/Ten-dice-game/static/js/main.8238aae1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.435dff3e.css",
+    "static/js/main.8238aae1.js"
+  ]
+}
