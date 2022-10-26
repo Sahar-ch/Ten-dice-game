@@ -21,6 +21,14 @@ main {
   align-items: center;
 }
 
+main h1 {
+  color: rgb(77, 166, 234);
+}
+main h4,
+h5 {
+  color: rgb(35, 66, 90);
+}
+
 .dice-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
@@ -44,7 +52,7 @@ main {
 }
 
 .roll-button {
-  width: 100px;
+  width: 200px;
   height: 50px;
   border: none;
   border-radius: 6px;
@@ -53,6 +61,8 @@ main {
   font-size: 1.2rem;
   font-family: "Karla", cursive;
   cursor: pointer;
+  margin-top: 25px;
+  font-weight: bold;
 }
 
 .roll-button:focus {
@@ -65,6 +75,29 @@ main {
 
 .selected {
   background-color: #20a3f4;
-
   color: #fff;
+}
+
+.description {
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: black;
+}
+.circle-container {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.clicked {
+  background-color: #fff;
 }
